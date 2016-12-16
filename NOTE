@@ -1,0 +1,11 @@
+How to push files to git.
+
+echo "# Mytest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/everange-ustc/Mytest.git
+git push -u origin master
+
+
+
